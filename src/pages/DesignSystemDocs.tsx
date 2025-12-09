@@ -1277,7 +1277,7 @@ const DesignSystemDocs = () => {
                 <FormGroup>
                   <FormLabel required>Password</FormLabel>
                   <Input type="password" placeholder="••••••••" />
-                  <FormError>Password must be at least 8 characters</FormError>
+                  <FormError message="Password must be at least 8 characters" />
                 </FormGroup>
 
                 <FormGroup>
@@ -1329,7 +1329,7 @@ const DesignSystemDocs = () => {
                 <FormGroup>
                   <FormLabel>Error State</FormLabel>
                   <Input placeholder="Invalid input" className="border-destructive focus-visible:ring-destructive" />
-                  <FormError>This field is required</FormError>
+                  <FormError message="This field is required" />
                 </FormGroup>
               </div>
             </CardContent>
